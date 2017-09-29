@@ -9,5 +9,7 @@ config = configparser.ConfigParser()
 config.read("credentials.ini")
 message = config["DEFAULT"]["message"]
 
+
+
 print(message)
 
